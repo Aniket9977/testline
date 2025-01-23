@@ -25,11 +25,12 @@ git clone https://github.com/your-username/manufacturing-api.git
 
 ```bash
 pip install -r requirements.txt
-Run the Flask server:
+```
 
 ```bash
 python main.py
 The API will be available at http://127.0.0.1:5000.
+```
 
 ```bash
 Copy
@@ -40,3 +41,4 @@ Edit
 ├── README.md              # Documentation
 ├── uploaded_data.csv  # Example dataset
 ├── model.pkl              # Saved model and scaler
+```
