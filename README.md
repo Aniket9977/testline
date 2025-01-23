@@ -31,6 +31,26 @@ pip install -r requirements.txt
 python main.py
 The API will be available at http://127.0.0.1:5000.
 ```
+## Make Predictions
+Endpoint: POST /predict
+Description: Make a prediction based on input data.
+Request:
+Content-Type: application/json
+```bash
+{
+    "Temperature": 80,
+    "Run_Time": 120
+}
+Response:
+
+{
+    "Downtime": "Yes",
+    "Confidence": 0.85
+}
+
+```
+
+
 
 ```bash
 Copy
