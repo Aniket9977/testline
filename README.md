@@ -33,9 +33,6 @@ The API will be available at http://127.0.0.1:5000.
 ```
 ## Make Predictions
 Endpoint: POST /predict
-Description: Make a prediction based on input data.
-Request:
-Content-Type: application/json
 ```bash
 {
     "Temperature": 80,
@@ -53,8 +50,7 @@ Response:
 
 
 ```bash
-Copy
-Edit
+
 ├── main.py                # Main API logic
 ├── model.py               # Model creation and training logic
 ├── requirements.txt       # Dependencies
